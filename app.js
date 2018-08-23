@@ -18,7 +18,6 @@ var commentRoutes    = require("./routes/comments"),
 
 
 mongoose.connect(process.env.DATABASEURL);
-// mongoose.connect("mongodb://mrpanda01:Raye3115@ds229732.mlab.com:29732/mrpandacamp");
 
 
 app.use(bodyParser.urlencoded({extended: true}));
